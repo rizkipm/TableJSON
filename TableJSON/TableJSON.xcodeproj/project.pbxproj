@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5FD604882F0D93DCFDFA3BC2 /* Pods_TableJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F7A8DE2262FBEF8C75C6AD /* Pods_TableJSON.framework */; };
+		9A320BF11FB36E5B00FC1125 /* cellKontakTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A320BF01FB36E5B00FC1125 /* cellKontakTableViewCell.swift */; };
+		9A320BF31FB36E7600FC1125 /* KontakTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A320BF21FB36E7600FC1125 /* KontakTableViewController.swift */; };
 		9A5A68E41FB36A49004E7622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A68E31FB36A49004E7622 /* AppDelegate.swift */; };
 		9A5A68E61FB36A49004E7622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A68E51FB36A49004E7622 /* ViewController.swift */; };
 		9A5A68E91FB36A49004E7622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5A68E71FB36A49004E7622 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		58A245CAFDEE4587F2EA4C1D /* Pods-TableJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableJSON.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableJSON/Pods-TableJSON.release.xcconfig"; sourceTree = "<group>"; };
 		8CDE541D2DB34BE0BF65D9B2 /* Pods-TableJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableJSON.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableJSON/Pods-TableJSON.debug.xcconfig"; sourceTree = "<group>"; };
+		9A320BF01FB36E5B00FC1125 /* cellKontakTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellKontakTableViewCell.swift; sourceTree = "<group>"; };
+		9A320BF21FB36E7600FC1125 /* KontakTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KontakTableViewController.swift; sourceTree = "<group>"; };
 		9A5A68E01FB36A49004E7622 /* TableJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5A68E31FB36A49004E7622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A5A68E51FB36A49004E7622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				9A5A68EA1FB36A49004E7622 /* Assets.xcassets */,
 				9A5A68EC1FB36A49004E7622 /* LaunchScreen.storyboard */,
 				9A5A68EF1FB36A49004E7622 /* Info.plist */,
+				9A320BF01FB36E5B00FC1125 /* cellKontakTableViewCell.swift */,
+				9A320BF21FB36E7600FC1125 /* KontakTableViewController.swift */,
 			);
 			path = TableJSON;
 			sourceTree = "<group>";
@@ -342,6 +348,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A320BF11FB36E5B00FC1125 /* cellKontakTableViewCell.swift in Sources */,
+				9A320BF31FB36E7600FC1125 /* KontakTableViewController.swift in Sources */,
 				9A5A68E61FB36A49004E7622 /* ViewController.swift in Sources */,
 				9A5A68E41FB36A49004E7622 /* AppDelegate.swift in Sources */,
 			);

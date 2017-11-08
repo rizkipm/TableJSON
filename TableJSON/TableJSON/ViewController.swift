@@ -1,26 +1,39 @@
+////
+////  ViewController.swift
+////  TableJSON
+////
+////  Created by Rizki Syaputra on 11/8/17.
+////  Copyright © 2017 Rizki Syaputra. All rights reserved.
+////
 //
-//  ViewController.swift
-//  TableJSON
+//import UIKit
+//import Alamofire
+//import SwiftyJSON
 //
-//  Created by Rizki Syaputra on 11/8/17.
-//  Copyright © 2017 Rizki Syaputra. All rights reserved.
+//class ViewController: UIViewController {
+//      var arrRes = [[String:AnyObject]]() //Array of dictionary
 //
-
-import UIKit
-import Alamofire
-
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-}
-
+////    override func viewDidLoad() {
+////      super.viewDidLoad()
+////      Alamofire.request("http://api.androidhive.info/contacts/").responseJSON { (responseData) -> Void in
+////          if((responseData.result.value) != nil) {
+////              let swiftyJsonVar = JSON(responseData.result.value!)
+////
+////              if let resData = swiftyJsonVar["contacts"].arrayObject {
+////                  self.arrRes = resData as! [[String:AnyObject]]
+////              }
+////              if self.arrRes.count > 0 {
+////                  UITableView
+////              }
+////          }
+////      }
+//  }
+//
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
+//
+//
+//}
+//
