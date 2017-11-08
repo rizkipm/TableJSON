@@ -24,10 +24,11 @@ class KontakTableViewController: UITableViewController {
                     self.arrRes = resData as! [[String:AnyObject]]
                 }
                 if self.arrRes.count > 0 {
-                    UITableView
+                    self.tableView.reloadData()
                 }
             }
         }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -38,23 +39,27 @@ class KontakTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return arrRes.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! cellKontakTableViewCell
 
         // Configure the cell...
-
+        var dict = arrRes[indexPath.row]
+        cell.cellLabel?.text = dict["name"] as? String
+        cell.celldetail.text = dict["email"] as? String
         return cell
+        
+       
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
